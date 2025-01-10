@@ -30,3 +30,63 @@
     color: white;
     font-weight: bolder;
 }
+
+/* Universal css */
+
+.main-context-title{
+    font-size: xx-large;
+    font-weight:800;
+    margin: 30px 0px;
+}
+
+/* MAIN CONTEXT BOX */
+
+.main-context-boxes{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+.main-context-details{
+    margin-bottom: 20px;
+}
+.main-content-box-1{
+    background-color: #BBCCEA;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.main-content-box-2{
+    background-color: #C6E4D6;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.main-content-box-3{
+    background-color: #F7EBCF;
+    border-radius: 20px;
+    padding: 30px;
+}
+.main-content-box-1-button{
+    background-color: #5490F5;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-weight: bolder;
+    border: none;
+}
+.main-content-box-2-button{
+    background-color: #09A15C;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-weight: bolder;
+    border: none;
+}
+.main-content-box-3-button{
+    background-color: #FFC239;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-weight: bolder;
+    border: none;
+}
