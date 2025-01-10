@@ -1,0 +1,32 @@
+.hero{
+    background-color: #C6E4D6;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 80px 100px;
+    margin: 40px 5px;
+    height: auto;
+    width: auto;
+}
+.hero-title{
+    margin: 100px;
+    
+}
+.hero-title-heading{
+    color: #0E0E0E;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight:300;
+}
+.hero-title-context{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+.hero-button{
+    border-radius: 8px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: white;
+    font-weight: bolder;
+}
