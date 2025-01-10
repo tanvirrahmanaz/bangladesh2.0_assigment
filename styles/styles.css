@@ -29,6 +29,7 @@
     background-color: #006A50;
     color: white;
     font-weight: bolder;
+    border: none;
 }
 
 /* Universal css */
@@ -90,3 +91,39 @@
     font-weight: bolder;
     border: none;
 }
+
+/* News box slider  */
+
+.news-box-heading{
+    margin-bottom: 40px;
+}
+.news-box-sliders{
+    margin: 20px;
+}
+.news-box-slider{
+    display: flex;
+    margin: 70px;
+}
+.news-box-slider-img{
+    border-radius: 5%;
+}
+.news-box-slider-context{
+    margin: 0px 30px;
+}
+.date-time,
+.time {
+    display: inline;
+    margin-right: 10px;
+}
+.news-box-slider-context-details{
+    pad: 3px 70px;
+}
+.news-box-slider-button{
+    background-color: #006A50;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-weight: bolder;
+    border: none;
+}
+
