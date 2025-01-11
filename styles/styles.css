@@ -7,6 +7,34 @@ body {
 *{
     margin: 3px 10px 5px 10px;
 }
+
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+}
+nav div p{
+    font-weight: 700;
+    font-size: xx-large;
+}
+nav div button{
+    border: 2px solid green;
+    color: green;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 400px;
+}
+nav div button:hover{
+    background-color: #abd8c4; 
+    transform: translateY(-4px); 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 4);
+    color: gray;
+    font-weight:bolder;
+    font-size: larger;
+}
 .hero{
     background-color: #C6E4D6;
     display: flex;
@@ -132,6 +160,19 @@ body {
     color: white;
     font-size: larger;
     font-weight: 400px;
+}
+
+.quote-text{
+    margin-top: 40px;
+}
+.quote-section{
+    max-width: 1000px;
+    padding: 40px;
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 40px 40px;
+    background-size: 70px auto;
+  
 }
 
 /* News box slider  */
