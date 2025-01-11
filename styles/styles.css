@@ -1,3 +1,6 @@
+*{
+    margin: 3px 10px 5px 10px;
+}
 .hero{
     background-color: #C6E4D6;
     display: flex;
@@ -125,5 +128,47 @@
     padding: 8px 12px;
     font-weight: bolder;
     border: none;
+    margin-top: 20px;
 }
 
+
+/* donate box css */
+
+.donate-box-heading{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.donate-money-box{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+    border-color: black;
+}
+.donate-box-title{
+    margin-bottom: 30px;
+}
+.donate-money-box p {
+    padding: 15px 30px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+form input {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 0px;
+    text-align: center;
+    border-bottom: 1px solid  gray;
+    width: 70%;
+}
+/* hr{
+    width: 70%;
+    border: 1px solid #000; 
+    margin: 20px auto; 
+} */
