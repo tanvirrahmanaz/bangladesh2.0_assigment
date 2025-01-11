@@ -320,3 +320,19 @@ form input {
 .news-letter-instruction-message{
     margin-bottom: 10px;
 }
+
+/* footer section */
+
+footer div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+footer div p{
+    margin-top: 40px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+footer div img{
+    margin-top: 20px;
+}
